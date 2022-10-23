@@ -17,7 +17,7 @@ const createUserWithEmail=event=>{
     createUser(email, password)
     .then(result=>{
         const user=result.user;
-console.log(user);
+
         alert('success')
         updateUser(name, photoURL)
         form.reset();
