@@ -15,6 +15,7 @@ import { Link } from "react-router-dom";
 
 
 const Carousel2 = ({items}) => {
+    console.log(items);
  
 
     return (
@@ -38,6 +39,7 @@ const Carousel2 = ({items}) => {
         {
             items?.map(item=><SwiperSlide>
                 <Link to={`/details/${item.id}`}>
+
                 <div className="hero min-h-screen" style={{ backgroundImage: `url(${item?.img})` }}>
                     <div className="hero-overlay bg-opacity-10">
                     <div className="hero-content text-center text-neutral-content">

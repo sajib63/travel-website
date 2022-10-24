@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+
 import Carousel from '../Carousel/Carousel';
 
 
@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     
-    <div className='body-container grid grid-cols-2 '>
+    <div className='body-container grid grid-cols-2 bg-indigo-700 p-10'>
                 <div className=' text-center'>
                     <h1 className='text-5xl font-bold mt-5 text-center text-white'>COX'S BAZAR</h1>
                     <br />
