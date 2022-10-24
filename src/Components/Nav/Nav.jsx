@@ -41,7 +41,7 @@ const Nav = () => {
                   to="/"
                   aria-label="Our product"
                   title="Our product"
-                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                  className="font-medium p-3 hover:text-white hover:bg-orange-500 rounded  text-orange-400 transition-colors duration-200  tracking-wide"
                 >
                   News
                 </Link>
@@ -51,7 +51,7 @@ const Nav = () => {
                   to="/"
                   aria-label="Our product"
                   title="Our product"
-                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                  className="font-medium p-3 hover:text-white hover:bg-orange-500 rounded  text-orange-400 transition-colors duration-200  tracking-wide"
                 >
                   Destination
                 </Link>
@@ -61,7 +61,7 @@ const Nav = () => {
                   to="/"
                   aria-label="Product pricing"
                   title="Product pricing"
-                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                  className="font-medium p-3 hover:text-white hover:bg-orange-500 rounded  text-orange-400 transition-colors duration-200  tracking-wide"
                 >
                   Blog
                 </Link>
@@ -71,7 +71,7 @@ const Nav = () => {
                   to="/"
                   aria-label="About us"
                   title="About us"
-                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                  className="font-medium p-3 hover:text-white hover:bg-orange-500 rounded  text-orange-400 transition-colors duration-200  tracking-wide"
                 >
                   Contact
                 </Link>
@@ -91,7 +91,7 @@ const Nav = () => {
                  
                   aria-label="About us"
                   title="About us"
-                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                  className="font-medium p-3 text-white rounded  hover:text-orange-400 transition-colors duration-200  tracking-wide"
                 >
                  {user?.email}
                 </Link>
@@ -99,7 +99,7 @@ const Nav = () => {
                   <li>
                 <Link
                   onClick={logoutHandle}
-                  className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                  className="font-medium p-3 hover:text-white hover:bg-orange-500 rounded  text-orange-400 transition-colors duration-200  tracking-wide"
                   aria-label="Sign up"
                   title="Sign up"
                 >
@@ -115,7 +115,7 @@ const Nav = () => {
                     <li>
                 <Link
                   to="/register"
-                  className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                  className="font-medium p-3 hover:text-white hover:bg-orange-500 rounded  text-orange-400 transition-colors duration-200  tracking-wide"
                   aria-label="Sign up"
                   title="Sign up"
                 >
@@ -125,7 +125,7 @@ const Nav = () => {
               <li>
                 <Link
                   to="/login"
-                  className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                  className="font-medium p-3 hover:text-white hover:bg-orange-500 rounded  text-orange-400 transition-colors duration-200  tracking-wide"
                   aria-label="Sign in"
                   title="Sign in"
                 >
@@ -136,16 +136,7 @@ const Nav = () => {
                 
                 </>
               }
-                    <Link>
-                        
-                        {
-                                user?.photoURL? 
-                               <img  src={user?.photoURL} alt="" />
-                                    :
-                                    <FaUser></FaUser>
-                                
-                            }
-                        </Link>
+                  
 
 
 

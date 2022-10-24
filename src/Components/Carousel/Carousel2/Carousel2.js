@@ -40,7 +40,7 @@ const Carousel2 = ({items}) => {
             items?.map(item=><SwiperSlide>
                 <Link to={`/details/${item.id}`}>
 
-                <div className="hero h-full" style={{ backgroundImage: `url(${item?.img})` }}>
+                <div className="hero min-h-screen rounded-lg" style={{ backgroundImage: `url(${item?.img})` }}>
                     <div className="hero-overlay bg-opacity-20">
                     <div className="hero-content text-center text-neutral-content">
                         <div className="max-w-md">

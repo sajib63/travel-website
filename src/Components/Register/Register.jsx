@@ -82,7 +82,7 @@ const updateUser=(name, photoURL)=>{
                 </label>
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Register</button>
+                <button className="btn  hover:text-white bg-orange-500  border-0">Register</button>
               </div>
             </div>
           </div>
