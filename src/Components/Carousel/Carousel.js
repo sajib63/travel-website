@@ -10,7 +10,7 @@ const Carousel = () => {
   },[])
 
     return (
-      <div>
+      <div >
         <Carousel2 items={items}></Carousel2>
     </div>
     );

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../UserContext/UserContext';
+import image from './img/95530-password.gif'
 
 const Login = () => {
 const {loginUser}=useContext(AuthContext);
@@ -30,13 +31,14 @@ const {loginUser}=useContext(AuthContext);
 
     return (
       <div className="hero min-h-screen bg-base-200 ">
-      <form onSubmit={loginUserWithEmail} className="hero-content flex-col w-full ">
+      <form onSubmit={loginUserWithEmail} className="hero-content flex-col w-full  lg:flex-row-reverse">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl font-bold">Login!</h1>
+          <h1 className="text-5xl font-bold text-center mb-4">Login!</h1>
+          <img src={image} alt="" className='h-3/4'/>
     
         </div>
-        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <div className="card-body">
+        <div className="card flex-shrink-0 w-full h-full max-w-sm shadow-2xl bg-base-100">
+          <div className="card-body h-full">
         
             
 
